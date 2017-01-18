@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+.flexed {
+  display: flex;
+  margin-left: 6vw;
+}
+
+#logo {
+  margin-left: 29vw;
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+}
+
+.nav {
+  padding: 10px 20px;
+  margin: 5px 5px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  text-decoration: none;
+  flex: 1;
+  font-size: 40px;
+}
+
+.whiteText {
+  color: white;
+  font-size: 40px;
+  z-index: 100;
+  text-align: center;
+  padding-top: 3vw;
+}
+
+#firstPic {
+  background-image: url("../img/indycitypic2.jpg");
+  /* Full height */
+  height: 100%;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#secondPic {
+  background-image: url("../img/indycityvolpic.jpg");
+  /* Full height */
+  height: 100%;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#thirdPic {
+  background-image: url("../img/indycitypic3.jpg");
+  /* Full height */
+  height: 100%;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.col-xs-4, .col-xs-8 {
+  border: 1px solid black;
+}
